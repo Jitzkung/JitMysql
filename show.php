@@ -36,7 +36,7 @@ mysqli_close($conn);
 ?>
 </body>
 <body>
-<h1>The button Element</h1>
-<button type="button" onclick="alert('Hello world!')">Click Me!</button>
+<a type="media_type">
+<button type="button" onclick="alert('Hello world!')">เพิ่ม</button>
 </body>
 </html>
