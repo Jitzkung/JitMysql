@@ -37,7 +37,5 @@ mysqli_close($conn);
 </body>
 <body>
 <button type="button" onclick="alert('Hello world!')">เพิ่ม</button>
-<button type="button" onclick="alert('Hello world!')">ลบ</button>
-<button type="button" onclick="alert('Hello world!')">แก้ไข</button>
 </body>
 </html>
