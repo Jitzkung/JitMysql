@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body class="container text-center" style="height: 100vh; background: url(https://images.unsplash.com/photo-1595113316349-9fa4eb24f884?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=100);background-repeat: no-repeat;background-size: cover;">
+<body class="container text-center" style="height: 100vh; background: url(https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-1.2.1&auto=format&fit=crop&w=841&q=100);background-repeat: no-repeat;background-size: cover;">
   <div class="h-100" style="display:grid; align-items: center;">
     <div class="roundred p-3 shadow">
 <?php
