@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 <title>ITF Lab</title>
 </head>
-<body class="container text-center" style="height: 100vh; background: url(https://images.unsplash.com/photo-1546521343-4eb2c01aa44b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=100);background-repeat: no-repeat;background-size: cover;">
+<body class="container text-center" style="height: 100vh; background: url(https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=100);background-repeat: no-repeat;background-size: cover;">
 <?php
 $conn = mysqli_init();
 mysqli_real_connect($conn, 'jitmysql.mysql.database.azure.com', 'jitmysql@jitmysql', 'JITsql123', 'itflab', 3306);
@@ -23,7 +23,7 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
     <th scope="col" width="300"> <div align="center">Action </div></th>
   </tr>
   </thead>
-<tbody class="text-center">
+<tbody class="text-center" table-light>
 <?php
 while($Result = mysqli_fetch_array($res))
 {
