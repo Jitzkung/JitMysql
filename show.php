@@ -23,12 +23,12 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
     <th scope="col" width="300"> <div align="center">Action </div></th>
   </tr>
   </thead>
-<tbody class="text-center" table-light>
+<tbody class="text-center">
 <?php
 while($Result = mysqli_fetch_array($res))
 {
 ?>
-  <tr>
+  <tr class="table-light">
     <td><?php echo $Result['Name'];?></div></td>
     <td><?php echo $Result['Comment'];?></td>
     <td><?php echo $Result['Link'];?></td>
