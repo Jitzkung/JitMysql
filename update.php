@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body class="container text-center" style="height: 100vh; background: url(https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=100);background-repeat: no-repeat;background-size: cover;">
-    <div class="roundred p-3 shadow">
+    <div class="roundred p-3 shadow bg-light">
 <?php
 
 $conn = mysqli_init();
